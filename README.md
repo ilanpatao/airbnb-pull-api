@@ -8,13 +8,13 @@ Sample of pulling listings from AirBNB's home tab explorer API. Air BNB displays
 PHP CURL XHR request to airbnb.com requesting listings of available rentals in a certain location. The request calls on the Home Explorer API of Air BNB using their public key to draw listings with metadata such as pricing, location, pictures, reviews, listing IDs, availability, number of guests, number of bedrooms, rate type among other parameters (not all included in the decoded sample, there are over 40 parameters provided per each listing. This sample uses the most commonly viewed ones).
 
 <hr><b>Demo:</b>
-By default it will show results for France:
+By default it will show results for France:<br>
 http://dangerstudio.com/api/airbnb/
 
-Add /?query=COUNTRY to modify the results of the pull:
-http://dangerstudio.com/api/airbnb/?query=Israel 
-http://dangerstudio.com/api/airbnb/?query=Germany
-http://dangerstudio.com/api/airbnb/?query=England
+Add /?query=COUNTRY to modify the results of the pull:<br>
+http://dangerstudio.com/api/airbnb/?query=Israel<br> 
+http://dangerstudio.com/api/airbnb/?query=Germany<br>
+http://dangerstudio.com/api/airbnb/?query=England<br>
 http://dangerstudio.com/api/airbnb/?query=Italy
 
 <hr><b>Note:</b>
