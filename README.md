@@ -1,8 +1,11 @@
 # airbnb-pull-api
+
 Description:
+
 Sample of pulling listings from AirBNB's home tab explorer API. Air BNB displays a number of results with numerous metadata for display in real-time; with this sample you can explore how you can pull and use this data in your projects.
 
 Technical:
+
 PHP CURL XHR request to airbnb.com requesting listings of available rentals in a certain location. The request calls on the Home Explorer API of Air BNB using their public key to draw listings with metadata such as pricing, location, pictures, reviews, listing IDs, availability, number of guests, number of bedrooms, rate type among other parameters (not all included in the decoded sample, there are over 40 parameters provided per each listing. This sample uses the most commonly viewed ones).
 
 This code can be tweaked (in the End Point URI to add filters to modify your search). A sample call would be :
@@ -12,6 +15,7 @@ https://www.airbnb.com/api/v2/explore_tabs?version=1.3.9&satori_version=1.1.0&_f
 Make note of the Adults, Children, Infants, Guests and Toddlers parameters which you can filter to return more exact results; in addition the 'items_per_grid' will control the total amount of listing results returned in the query.
 
 Usage ideas:
+
 Web apps and/or sites that wish to display AirBNB data on their platform.
 Automatically obtain, update, crawl, scrape and display AirBNB listings for a certain location.
 Widgetize and include AirBNB rental listings into your apps or site.
@@ -20,6 +24,7 @@ Automate/Data capture, or scrape; and quickly find rentals and contact the owner
 Build monitoring, spectating, live-availability checking and other functions.
 
 Demo:
+
 By default it will show results for France:
 http://dangerstudio.com/api/airbnb/
 
